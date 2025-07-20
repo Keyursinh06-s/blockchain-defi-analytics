@@ -1,0 +1,48 @@
+{
+  "name": "blockchain-defi-analytics",
+  "version": "1.0.0",
+  "description": "Advanced DeFi analytics platform with smart contract integration",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "lint": "eslint src/",
+    "format": "prettier --write src/"
+  },
+  "keywords": [
+    "blockchain",
+    "defi",
+    "analytics",
+    "ethereum",
+    "smart-contracts",
+    "web3"
+  ],
+  "author": "Keyursinh06-s",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^1.8.0",
+    "ethers": "^5.7.0",
+    "@uniswap/sdk-core": "^4.0.0",
+    "@uniswap/v3-sdk": "^3.9.0",
+    "axios": "^0.27.0",
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.5.0",
+    "redis": "^4.2.0",
+    "ws": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "jest": "^28.1.0",
+    "eslint": "^8.20.0",
+    "prettier": "^2.7.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
